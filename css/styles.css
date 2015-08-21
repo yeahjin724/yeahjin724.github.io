@@ -1,0 +1,80 @@
+@font-face {
+	font-family: azedo;
+	src: url(Azedo-Light.otf);
+}
+
+.quote{
+	position: relative;
+}
+
+/*.mainpic{
+	background-size: 100%;
+	height:703px;
+	background-image: url("../images/main.jpg");
+	background-attachment: cover;
+	background-repeat: no-repeat;
+	margin-top: 50px;*/
+}
+
+
+.about{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    top: 190px;
+    overflow: auto;
+}
+
+.lefthours{
+	float: left;
+	width: 100px;
+	font-size: 20px;
+}
+
+.righthours{
+	float: left;
+	width: 300px;
+}
+
+.delivery{
+	float: left;
+	width: 300px;
+}
+
+.large{
+	font-size: 20px;
+	text-align: right;
+}
+
+/*.abouttitle{
+	font-size: 45px;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+}*/
+
+
+
+.chopstick{
+	margin-top: 90px;
+	width: 800px;
+}
+
+
+
+.mainquote{
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	margin-left: -200px;
+	font-family: azedo;
+	font-size: 70px;
+	color: white;
+}
+
+.navbar-brand{
+	font-family: azedo;
+	font-size: 32px;
+}
+
+
