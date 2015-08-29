@@ -50,7 +50,8 @@
 }*/
 
 .test {
-	padding: 30px 250px;
+	padding: 40px;
+	max-width: 800px;
 }
 
 .col-xs-2{
@@ -74,8 +75,8 @@
 }
 
 .mainquote {
-	font-family: codelight;
-	font-size:65px;
+	font-family: origin_light;
+	font-size:45px;
 	color:#fff;
 	position:absolute;
 	top:50%;
@@ -87,8 +88,92 @@
 }
 
 .navbar-brand{
-	font-family: codelight;
-	font-size: 27px;
+	font-family: origin_light;
+	font-size: 18px;
 }
 
+/*body{
+	background-image: url(../images/background.png);
+	background-size: 100px;
+}
+*/
+.dinnerfortwo {
+	position: relative;
+	max-width:800px;
+	margin-top: 60px;
+	margin-bottom: 35px;
+
+/*	background-image: url(../images/blank.png);
+	background-size: cover;*/
+	/*border-color: rgba(242,227,214,0.3);*/
+	/*background-color: rgba(255,255,255,0.3);*/
+}
+.dinnerfortwo > img {
+	width:100%;
+	position: absolute;
+	top:0px;
+}
+.dinnerfortwo .row {
+	/*margin-bottom: 20px;*/
+	padding:20px 25px;
+	color: black;
+}
+.dinnerfortwo h3 {
+	margin-top: 0px;
+	font-size: 20px !important;
+	font-family: avenir
+}
+.dinnerfortwo p {
+	font-style: italic;
+}
+.dinnerfortwo .price {
+	text-align: right;
+	font-size: 15px;
+}
+
+.surcharge{
+	text-align: center;
+	font-style: italic;
+	color: white;
+	font-size: 12px;
+	margin-top: 25px;
+}
+
+
+
+.fixedimage{
+	background-image: url(../images/fixed.gif);
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	background-position: 0px -420px;
+	background-attachment: fixed;
+}
+
+.wakame{
+	background-image: url(../images/wakame.jpg);
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	background-position: 0px -330px;
+	background-attachment: fixed;
+}
+
+.sushidine{
+	background-image: url(../images/sushiroll.jpg);
+	width: 100%;
+	height: 400px;
+	background-size: 115%;
+	background-position: -170px -200px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.menutitle{
+	font-size: 35px;
+	font-family: origin_light;
+	margin-bottom: 30px;
+	margin-top: 0px;
+	text-align: center;
+}
 
